@@ -10,9 +10,6 @@ module.exports = {
     module: {
         rules: [{ test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }]
     },
-    //resolve: {
-    //    extensions: ['.ts', '.js'],
-    //}
     devServer: {
         static: './dist',
     }
